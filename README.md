@@ -16,3 +16,16 @@
 - git remote add origin https://github.com/sonlt068/tedu_social-network-for-TEDU-community.git
 - git remote show origin
 - git push -u origin master
+## lession 10
+- tsc --init 
+- referent typescript : https://www.typescriptlang.org/tsconfig/
+## 13
+- cài db: yarn add mongoose
+- cài type: yarn add @types/mongoose --dev
+- yarn add dotenv
+- yarn add cross-env --dev
+## 14
+- yarn add hpp helmet morgan cors : cài các API
+- yarn add @types/hpp @types/helmet @types/morgan @types/cors --dev
+- yarn add winston : view log đẹp hơp
+- yarn add envalid
