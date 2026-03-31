@@ -28,4 +28,16 @@
 - yarn add hpp helmet morgan cors : cài các API
 - yarn add @types/hpp @types/helmet @types/morgan @types/cors --dev
 - yarn add winston : view log đẹp hơp
-- yarn add envalid
+- yarn add envalid : dung validate 
+- yarn add tsconfig-paths: cho pheps node modules
+## 20
+-yarn add gravatar 
+-yarn add @types/gravatar  --dev
+- yarn add bcryptjs dung de ma hoa va giai ma trong nodejs
+- yarn add bcryptjs dung de ma hoa va giai ma trong nodejs
+- yarn add jsonwebtoken
+- yarn add --dev @types/jsonwebtoken
+## 24
+validate:
+- yarn add class-validator
+- yarn add class-transformer

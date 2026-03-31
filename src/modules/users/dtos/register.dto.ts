@@ -1,0 +1,24 @@
+import { IsEmail, isEmail, IsNotEmpty, MinLength } from "class-validator";
+
+export default class RegisterDto {
+  constructor(
+    first_name: string,
+    last_name: string,
+    email: string,
+    password: string,
+  ) {
+    this.first_name = first_name;
+    this.last_name = last_name;
+    this.email = email;
+    this.password = password;
+  }
+  @IsNotEmpty()
+  public first_name: string;
+  @IsNotEmpty()
+  public last_name: string;
+  @IsEmail()
+  public email: string;
+  @IsNotEmpty()
+  @MinLength(6, { message: "Password must be at least 6 characters long" })
+  public password: string;
+}
